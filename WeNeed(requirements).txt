@@ -1,0 +1,13 @@
+Python-binance
+TA-Lib. (Technical Analysis Library)  
+numby  
+Websocket Client for Python. [https://pypi.org/project/websocket-client/]
+
+
+## For TA-Lib: 
+    # pip3 install ta
+    # pip3 install ccxt schedule 
+    # for windows (if problem ocuur) : Download -> https://sourceforge.net/projects/ta-lib/ (unzip in C drive)
+## For Websocket Client : [https://pypi.org/project/websocket-client/]
+    # and pip install websocket
+## run pip3 install -r requirements.txt

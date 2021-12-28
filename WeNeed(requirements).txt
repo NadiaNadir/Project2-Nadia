@@ -1,13 +1,20 @@
-Python-binance
-TA-Lib. (Technical Analysis Library)  
-numby  
-Websocket Client for Python. [https://pypi.org/project/websocket-client/]
+We are making an "Automated trading bot that uses websockets, TA-Lib, and the Binance API".
+
+# We will need. 
+1 - Python-binance
+2 - TA-Lib. (Technical Analysis Library)  
+3 - numby  
+4 - Websocket Client for Python. [https://pypi.org/project/websocket-client/]
 
 
 ## For TA-Lib: 
     # pip3 install ta
     # pip3 install ccxt schedule 
     # for windows (if problem ocuur) : Download -> https://sourceforge.net/projects/ta-lib/ (unzip in C drive)
+    
 ## For Websocket Client : [https://pypi.org/project/websocket-client/]
     # and pip install websocket
 ## run pip3 install -r requirements.txt
+## Bianance API : 
+https://python-binance.readthedocs.io/en/latest/general.html
+https://python-binance.readthedocs.io/en/latest/account.html#id2

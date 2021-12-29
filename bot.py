@@ -1,4 +1,7 @@
 import websocket, json, pprint, talib, numpy
+import config
+from binance.client import Client
+from binance.enums import *
 
 SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
 RSI_PRIOD = 14
@@ -10,6 +13,21 @@ TRADE_QUANTITY = 0.005
 closes = []
 in_position = False
 
+# change the country here 
+client = Client(config.BINANCE_API_KEY, config.BINANCE_SECRET_KEY, tld='us')  
+# ORDER FUNCTION
+def order(side, quantiy, symbol, order_type=ORDER_TYPE_MARKET):
+    try:
+        print("Sending Order")
+        order = client.create_order(symbol=symbol, 
+        side=side,
+        type=order_type,
+        quantity=quantity)
+        print(order)
+    except Exeption as e:
+        return False
+    return True
+   
 def on_open(ws):
     print('Opened Connection')
     
@@ -46,6 +64,9 @@ def on_message(ws, message):
                 if in_position:
                     print("OVERBOUGHT! Sell! Sell! Sell!!!")
                     # Binance SELL-ORDER Logic here 
+                    order_succeeded = order(SIDE_SELL, TRADE_QUANTITY, TRADE_SYMBOL):
+                    if order_succeeded:
+                        in_position = False
                 else: 
                     print("It is OVER BOUGHT, but We don't own any. Nothing to do.")
             
@@ -55,7 +76,9 @@ def on_message(ws, message):
                 else:
                     print("OVERSOLD! Buy! Buy! Buy!!!")
                     # Binance BUY-ORDER Logic here 
-                
+                    order_succeeded = order(SIDE_BUY, TRADE_QUANTITY, TRADE_SYMBOL):
+                    if order_succeeded:
+                        in_position = True
             
 ws = websocket.WebSocketApp(SOCKET, on_open=on_open, on_close=on_close, on_message=on_message)
 ws.run_forever()

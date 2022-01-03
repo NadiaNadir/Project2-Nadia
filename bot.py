@@ -64,7 +64,7 @@ def on_message(ws, message):
                 if in_position:
                     print("OVERBOUGHT! Sell! Sell! Sell!!!")
                     # Binance SELL-ORDER Logic here 
-                    order_succeeded = order(SIDE_SELL, TRADE_QUANTITY, TRADE_SYMBOL):
+                    order_succeeded = order(SIDE_SELL, TRADE_QUANTITY, TRADE_SYMBOL)
                     if order_succeeded:
                         in_position = False
                 else: 
@@ -76,7 +76,7 @@ def on_message(ws, message):
                 else:
                     print("OVERSOLD! Buy! Buy! Buy!!!")
                     # Binance BUY-ORDER Logic here 
-                    order_succeeded = order(SIDE_BUY, TRADE_QUANTITY, TRADE_SYMBOL):
+                    order_succeeded = order(SIDE_BUY, TRADE_QUANTITY, TRADE_SYMBOL)
                     if order_succeeded:
                         in_position = True
             

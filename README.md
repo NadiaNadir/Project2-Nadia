@@ -5,7 +5,7 @@
 #
 ### Project Explaination. 
 
-#### THE MECHANISM WE ARE USING FOR TRADING BOT. 
+#### THE MECHANISM WE ARE USING FOR TRADING BOT. (DIAGRAM)
 ![DataFloeDiagram](https://user-images.githubusercontent.com/60047689/147998538-fc8c3c2c-7323-4cb0-ae3d-8137207008e0.png)
 
 #### DEPENDENCIES & 3rd PARTY LIBRARAIES WE WILL NEED. 
@@ -19,10 +19,22 @@ https://github.com/NadiaNadir/Project2-Nadia/blob/main/requirements.txt
 #### THE CODE. 
 https://github.com/NadiaNadir/Project2-Nadia/blob/main/bot.py
 
-##### IMPORT 
+##### IMPORT  
+
+##### WEBSOCKET CLIENT (last line) 
+
+##### Def FUnctions (Close, Open, on-message)  [and the Json Message in on_message]
+
+##### IMPORT pprint 
+
+##### Candle = message K
+is candle close .... (when X =  true itsthe Close of the Candlestick.   
 
 
 
+
+
+##### __________
 ##### NOTE  
 We have also upload a file name bots-notebook.ipynb   
 We can use this file on sagemaker with it's noit working on the local directory. 

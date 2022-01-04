@@ -4,6 +4,7 @@ from binance.client import Client
 from binance.enums import *
 
 SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
+
 RSI_PRIOD = 14
 RSI_OVERBOUGHT = 70
 RSI_OVERSOLD = 30
@@ -25,7 +26,9 @@ def order(side, quantiy, symbol, order_type=ORDER_TYPE_MARKET):
         quantity=quantity)
         print(order)
     except Exeption as e:
+        print("an exception occured - {}".format(e))
         return False
+    
     return True
    
 def on_open(ws):
@@ -35,7 +38,7 @@ def on_close(ws):
     print('Closed Connection')
     
 def on_message(ws, message):
-    global closes
+    global closes, in_position
     
     print('Received Message')
     json_message = json.loads(message)

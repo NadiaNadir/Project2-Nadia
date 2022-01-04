@@ -10,8 +10,8 @@
 
 #### DEPENDENCIES & 3rd PARTY LIBRARAIES WE WILL NEED. 
 https://github.com/NadiaNadir/Project2-Nadia/blob/main/requirements.txt
-1 ) PYTHON-BINANCE 
-2 ) TA-Lib (Technical Analysis Library)
+1 ) PYTHON-BINANCE #
+2 ) TA-Lib (Technical Analysis Library) #
 3) numpy (for calculations on numpy arrays, it provides a really efficient optimal calculations on series of numbers)
 4) WEBSOCKET CLIENT for Python. 
 

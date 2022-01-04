@@ -19,4 +19,6 @@ https://github.com/NadiaNadir/Project2-Nadia/blob/main/requirements.txt
 #### THE CODE. 
 https://github.com/NadiaNadir/Project2-Nadia/blob/main/bot.py
 
-### THE CHAT BOT. 
+##### NOTE  
+We have also upload a file name bots-notebook.ipynb   
+We can use this file on sagemaker with it's noit working on the local directory. 

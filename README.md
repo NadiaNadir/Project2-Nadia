@@ -9,13 +9,11 @@
 ![DataFloeDiagram](https://user-images.githubusercontent.com/60047689/147998538-fc8c3c2c-7323-4cb0-ae3d-8137207008e0.png)
 
 #### DEPENDENCIES & 3rd PARTY LIBRARAIES WE WILL NEED. 
-https://github.com/NadiaNadir/Project2-Nadia/blob/main/requirements.txt
+https://github.com/NadiaNadir/Project2-Nadia/blob/main/requirements.txt  
 1 ) PYTHON-BINANCE  
-
 2 ) TA-Lib (Technical Analysis Library)  
-
 3) numpy (for calculations on numpy arrays, it provides a really efficient optimal calculations on series of numbers)  
-5) WEBSOCKET CLIENT for Python.   
+4) WEBSOCKET CLIENT for Python.   
 
 
 #### THE CODE. 

@@ -49,6 +49,8 @@ So here is just showing the General Flow of Data … we apply the strategy of th
 
 I created a Separate requirement.txt file then I just run this pip3 install –r requirements.txt in my terminal. It will install all the packages we required. 
 
+# CONFIG.PY 
+There is a file CONFIG.PY where you need to add your Binance API Key & Binance Secret Key. 
 ### LET”S CHECKOUT THE CODE FILE
 
 ![D](https://user-images.githubusercontent.com/60047689/148145899-1a10e147-5f02-4d7a-b6a9-cbc51d8e7b6e.png)

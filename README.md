@@ -1,7 +1,7 @@
 # Project - 2.
 ## Team Members: Nadia Nadir & Paulo Corzo. 
 # An Automated Trading bot that uses websockets, TA-Lib, and the Binance 
-#### It will retrieve real-time price data & we apply technical  indicators to this Price Data in order to execute trades automatically.
+### It will retrieve real-time price data & we apply technical  indicators to this Price Data in order to execute trades automatically.
 
 ### We will need. 
 1 - Python-binance

@@ -1,7 +1,29 @@
 # Project - 2.
 ## Team Members: Nadia Nadir & Paulo Corzo. 
 # An Automated Trading bot that uses websockets, TA-Lib, and the Binance 
-#### It will retrieve real-time price data & we apply technical  indicators to this Price Data in order to execute trades automatically 
+#### It will retrieve real-time price data & we apply technical  indicators to this Price Data in order to execute trades automatically.
+
+### We will need. 
+1 - Python-binance
+2 - TA-Lib. (Technical Analysis Library)  
+3 - numby  
+4 - Websocket Client for Python. [https://pypi.org/project/websocket-client/]
+
+#### For TA-Lib: 
+    # pip3 install ta
+    # pip3 install ccxt schedule 
+    # for windows (if problem ocuur) : Download -> https://sourceforge.net/projects/ta-lib/ (unzip in C drive)
+    
+##### For Websocket Client : [https://pypi.org/project/websocket-client/]
+    # and pip install websocket
+    
+##### run pip3 install -r requirements.txt    to your Terminal. 
+Websocket Installation Documentation: https://websocket-client.readthedocs.io/en/latest/
+
+#### Bianance API : 
+https://python-binance.readthedocs.io/en/latest/general.html
+https://python-binance.readthedocs.io/en/latest/account.html#id2
+
 ![A](https://user-images.githubusercontent.com/60047689/148145549-3cbfdf4b-1443-4c61-8af4-c6e0681a427b.jpeg)
 
 #

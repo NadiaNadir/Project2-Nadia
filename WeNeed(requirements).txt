@@ -14,7 +14,7 @@ We are making an "Automated trading bot that uses websockets, TA-Lib, and the Bi
     
 ## For Websocket Client : [https://pypi.org/project/websocket-client/]
     # and pip install websocket
-## run pip3 install -r requirements.txt
+## run pip3 install -r requirements.txt    to your Terminal. 
 Websocket Installation Documentation: https://websocket-client.readthedocs.io/en/latest/
 
 ## Bianance API : 

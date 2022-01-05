@@ -156,6 +156,7 @@ But on the 16th Closewe will get the 2nd RSI Value so far.
 ![R](https://user-images.githubusercontent.com/60047689/148146952-4c0ae2f5-8de2-4316-95e3-6b5795f594fe.png)
 
 SO that’s how the WHOLE BOIT WORKS.
+I spent 20 USDs, I gainged then i loose, but after like 2 days I earned profit of 0.33 :D 
 
 ##### __________
 ##### NOTE  
